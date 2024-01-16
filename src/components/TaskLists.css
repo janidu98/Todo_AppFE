@@ -1,0 +1,48 @@
+.tasks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 30px;
+    /* margin: 2rem 5rem; */
+    width: 90%;
+    margin: 0 auto;
+    /* min-width: 25%; */
+    text-align: center;
+    /* background-color: black; */
+}
+
+.shadow{
+    background-color: darkseagreen;
+    padding: 10px;
+    /* margin: 10px; */
+    width: calc(32% - 9px);
+    border-radius: 8px;
+}
+
+.shadow p{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 950px) {
+    
+    .shadow{
+        background-color: darkseagreen;
+        padding: 10px;
+        /* margin: 10px; */
+        width: calc(50% - 15px);
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .shadow{
+        background-color: darkseagreen;
+        padding: 10px;
+        /* margin: 10px; */
+        width: 100%;
+        border-radius: 8px;
+    }
+}
